@@ -18,6 +18,6 @@ syn keyword pebbleKeyword contained for else endfor if elseif endif
 
 let b:current_syntax = "pebble"
 
-hi def pebbleKeyword    Statement
-hi def pebbleString     Constant
-hi def pebbleComment    Comment
+hi def link pebbleKeyword    Statement
+hi def link pebbleString     Constant
+hi def link pebbleComment    Comment
